@@ -2,17 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Libraries in Bonn</title>
+    <title>Libraries in Germany</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   </head>
   <body style="color: white; background: #004678">
-    <h1>Libraries in Bonn</h1>
+    <h1>Libraries in Germany</h1>
     <div id="map" style="height: 500px; color: black;"></div>
     <div id="navbar" style="margin-top: 5px;">
       <a style="color: #fff; margin-right: 15px;" href="duisburg.html">Duisburg</a><a style="color: #fff; margin-right: 15px;" href="frankfurt.html">Frankfurt</a><a style="color: #fff; margin-right: 15px;" href="garching.html">Garching</a><a style="color: #fff; margin-right: 15px;" href="koeln.html">Köln</a>
     </div>
+    <section>
+        <h2>Other maps</h2>
+        <ul>
+            <li><a href="https://github.com/hbz/swib16-project/blob/master/duisburg.html">Duisburg</a></li>
+            <li><a href="https://github.com/hbz/swib16-project/blob/master/frankfurt.html">Frankfurt</a></li>
+            <li><a href="https://github.com/hbz/swib16-project/blob/master/garching.html">Garching</a></li>
+            <li><a href="https://github.com/hbz/swib16-project/blob/master/koeln.html">Köln</a></li>
+        </ul>
     <script>
     // we create a map:
     var map = L.map('map').setView([50.733992, 7.099814], 15);
